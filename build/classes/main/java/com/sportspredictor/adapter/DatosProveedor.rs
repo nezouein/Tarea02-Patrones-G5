@@ -1,0 +1,1 @@
+com.sportspredictor.adapter.DatosProveedor

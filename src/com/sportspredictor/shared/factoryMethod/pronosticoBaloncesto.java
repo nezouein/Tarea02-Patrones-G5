@@ -5,14 +5,14 @@ import com.sportspredictor.shared.EventoBaloncesto;
 import com.sportspredictor.shared.Pronostico;
 import com.sportspredictor.shared.Usuario;
 
-public class PronosticoBaloncesto implements Pronostico {
+public class pronosticoBaloncesto implements Pronostico {
     private final EventoBaloncesto evento;
     private final Usuario usuario;
     private final String prediccionGanador;
     private int puntuacionTotal;
     private EstadoPronostico estado;
 
-    public PronosticoBaloncesto(EventoBaloncesto evento, Usuario usuario, String prediccionGanador) {
+    public pronosticoBaloncesto(EventoBaloncesto evento, Usuario usuario, String prediccionGanador) {
         this.evento = evento;
         this.usuario = usuario;
         this.prediccionGanador = prediccionGanador;

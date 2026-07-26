@@ -1,4 +1,4 @@
-package com.sportspredictor.chainKevinBorbor;
+package com.sportspredictor.chain;
 
 import com.sportspredictor.shared.EstadoReporte;
 import com.sportspredictor.shared.ManejadorIncidente;

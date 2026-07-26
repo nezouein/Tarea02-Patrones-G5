@@ -1,4 +1,4 @@
-package com.sportspredictor.factoryMethod;
+package com.sportspredictor.factory;
 
 import com.sportspredictor.shared.EstadoPronostico;
 import com.sportspredictor.shared.EventoTenis;

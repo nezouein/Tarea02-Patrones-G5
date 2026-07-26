@@ -1,13 +1,13 @@
 package com.sportspredictor;
 
-import com.sportspredictor.Observer.EmailObserver;
-import com.sportspredictor.Observer.GestorNotificaciones;
-import com.sportspredictor.Observer.MensajeriaObserver;
+import com.sportspredictor.observer.EmailObserver;
+import com.sportspredictor.observer.GestorNotificaciones;
+import com.sportspredictor.observer.MensajeriaObserver;
 import com.sportspredictor.adapter.ProveedorDatosExterno;
 import com.sportspredictor.adapter.ProveedorEstadisticasAdapter;
-import com.sportspredictor.chainKevinBorbor.ManejadorControlCalidad;
-import com.sportspredictor.chainKevinBorbor.ManejadorSoporte;
-import com.sportspredictor.factoryMethod.creadorPronosticoFutbol;
+import com.sportspredictor.chain.ManejadorControlCalidad;
+import com.sportspredictor.chain.ManejadorSoporte;
+import com.sportspredictor.factory.creadorPronosticoFutbol;
 import com.sportspredictor.shared.EventoFutbol;
 import com.sportspredictor.shared.ManejadorIncidente;
 import com.sportspredictor.shared.Pronostico;

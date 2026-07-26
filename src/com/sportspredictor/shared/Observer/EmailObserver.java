@@ -1,3 +1,7 @@
+package com.sportspredictor.observer;
+
+import com.sportspredictor.shared.Notificacion;
+import com.sportspredictor.shared.ObservadorNotificacion;
 
 public class EmailObserver implements ObservadorNotificacion {
     private String correoDestino;

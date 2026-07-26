@@ -1,8 +1,8 @@
 package com.sportspredictor;
 
-import com.sportspredictor.observer.EmailObserver;
-import com.sportspredictor.observer.GestorNotificaciones;
-import com.sportspredictor.observer.MensajeriaObserver;
+import com.sportspredictor.Observer.EmailObserver;
+import com.sportspredictor.Observer.GestorNotificaciones;
+import com.sportspredictor.Observer.MensajeriaObserver;
 import com.sportspredictor.adapter.ProveedorDatosExterno;
 import com.sportspredictor.adapter.ProveedorEstadisticasAdapter;
 import com.sportspredictor.chain.ManejadorControlCalidad;

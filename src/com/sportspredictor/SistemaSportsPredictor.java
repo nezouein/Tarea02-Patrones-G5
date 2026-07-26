@@ -2,7 +2,7 @@ package com.sportspredictor;
 
 import java.util.List;
 
-import com.sportspredictor.observer.GestorNotificaciones;
+import com.sportspredictor.Observer.GestorNotificaciones;
 import com.sportspredictor.factory.creadorPronostico;
 import com.sportspredictor.shared.Estadistica;
 import com.sportspredictor.shared.Evento;

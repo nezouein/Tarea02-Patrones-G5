@@ -1,4 +1,4 @@
-package com.sportspredictor.observer;
+package com.sportspredictor.Observer;
 
 import com.sportspredictor.shared.Notificacion;
 import com.sportspredictor.shared.ObservadorNotificacion;

@@ -19,7 +19,7 @@ public abstract class ManejadorBase implements ManejadorIncidente{
             reporte.actualizarEstado(EstadoReporte.ESCALADO);
             siguiente.manejar(reporte);
         }else{
-            System.out.println("Reporte: "+ reporte.getId()+ "sin resolver ya que no hay mas niveles para escalar");
+            System.out.println("Reporte: "+ reporte.getId()+ "sin resolver ya que no hay mas equipos para escalar");
         }
     }
 }

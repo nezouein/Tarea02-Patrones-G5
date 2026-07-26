@@ -1,3 +1,8 @@
+package com.sportspredictor.observer;
+
+import com.sportspredictor.shared.Notificacion;
+import com.sportspredictor.shared.ObservadorNotificacion;
+
 public class MensajeriaObserver implements ObservadorNotificacion {
     private String numeroDestino;
 

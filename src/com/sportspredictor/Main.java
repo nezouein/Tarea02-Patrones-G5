@@ -54,10 +54,10 @@ public class Main {
         Pronostico pronostico = sistema.realizarPronostico(evento, usuario, "EquipoA");
         sistema.publicarResultado(pronostico, "EquipoA");
 
-        System.out.println("\n== Incidente simple (lo resuelve soporte) ==");
+        System.out.println("\n== Incidente simple ==");
         sistema.registrarReporte(new ReporteIncidencia("inc-001", "Puntos no se sumaron", "captura.png", 2));
 
-        System.out.println("\n== Incidente grave (se escala a control de calidad) ==");
+        System.out.println("\n== Incidente grave ==");
         sistema.registrarReporte(new ReporteIncidencia("inc-002", "Resultado incorrecto en el marcador", "video.mp4", 8));
     }
 }

@@ -1,3 +1,7 @@
+package com.sportspredictor.observer;
+
+import com.sportspredictor.shared.Notificacion;
+import com.sportspredictor.shared.ObservadorNotificacion;
 
 public class PushObserver implements ObservadorNotificacion {
     private String tokenDispositivo;
